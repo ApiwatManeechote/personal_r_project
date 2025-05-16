@@ -1,7 +1,8 @@
 install.packages(dplyr)
 install.packages(tidyverse)
 
-library(dplyr, tidyverse)
+library(dplyr)
+library(tidyverse)
 
 jojo_cha <- data.frame(
   cha_id = c(1, 2, 3),
