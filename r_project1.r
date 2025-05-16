@@ -25,3 +25,6 @@ jojo_cha$cha_power <- c('Hamon', 'Hamon', 'Stand', 'Stand', 'Stand', 'Stand')
 jojo_cha$cha_power[jojo_cha$cha_name == 'Joseph'] <- 'Hamon and Stand'
 
 jojo_cha <- jojo_cha[!grepl("Hamon", jojo_cha$cha_power), ]
+
+jojo_cha %>%
+  filter(cha_power == 'Stand')
