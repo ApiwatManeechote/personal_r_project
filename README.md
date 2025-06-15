@@ -1,4 +1,4 @@
-# Chinook Digital Media Store: Visualization and Model Training
+# Chinook Digital Media Store: Visualization and Model Training (2)
 
 ## R Project Overview
 
